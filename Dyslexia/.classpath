@@ -11,15 +11,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/khale/Downloads/fontbox-2.0.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/khale/Downloads/pdfbox-2.0.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/khale/Downloads/preflight-2.0.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/khale/Downloads/xmpbox-2.0.8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/khale/Downloads/pdfbox-tools-2.0.8.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/PDFBOX_DEPENDENCIES"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
