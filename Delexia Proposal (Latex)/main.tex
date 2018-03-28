@@ -1,0 +1,231 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+\fontsize{12}{15}
+
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\usepackage[parfill]{parskip} %skip tab at start of paragraph
+
+
+\title{DeLexia}
+\author{Kareem Khaled}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+DeLexia is a smartphone application that allows Dyslexic individuals to read text from images. 
+\end{abstract}
+
+
+
+
+\section{Intro}
+
+In this section, we describe Dyslexia and provide examples on what afflicted individuals see.
+
+\subsection{Background}
+
+Dyslexia is a neurologically-based reading disability that affects an individual's word decoding and reading fluency. 
+Over 10\% of the world's population has Dyslexia, meaning a large demographic encounters difficulty in reading paper documents, books, and signs. Colours with high contrast, including red, also make reading difficult. 
+This decreases the quality of life in Dyslexic individuals.
+
+\subsection{Difficulty reading a sign}
+
+Consider an emergency situation where a Dyslexic individual needs to read a sign at a hospital. 
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.3\textwidth]{EmergencySign_1_.jpg}
+\caption{\label{fig:bad}This is not a Dyslexic-friendly hospital sign}
+\end{figure}
+
+
+
+Dyslexic individuals may not be able to quickly identify that they are near the emergency room. The red text also makes the sign difficult to read. 
+
+\subsection{Solution}
+Attributes of text with high readability for Dyslexic individuals include:
+\begin{itemize}
+   \item A light, non-white background
+   \item Black text
+   \item Bold text
+   \item Heavier boldness on bottom of letter
+\end{itemize}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=0.5\textwidth]{good.PNG}
+\caption{\label{fig:good} This is a Dyslexic-friendly format of Figure 1}
+\end{figure}
+
+
+\section{Objective}
+In this section, we discuss the purpose of DeLexia.
+
+\subsection{Purpose}
+The purpose of DeLexia is to convert text from any image taken on a smartphone to a Dyslexic-friendly format to help improve the quality of life of Dyslexic individuals.
+
+\subsection{Target Audience}
+All Dyslexic Android or iOS smartphone owners. 
+
+\subsection{Major goals}
+
+\begin{itemize}
+  \setlength{\itemindent}{7em}
+   \item[(Short-term)] Develop an application to convert text-based images to Dyslexic-friendly text
+   \item [(Long-term)] Run a study on Dyslexic individuals to improve the application's output
+\end{itemize}
+
+\subsection{Minor goals}
+
+\begin{itemize}
+  \setlength{\itemindent}{8em}
+   \item[(Short-term)] Allow customization for text output
+   \item[(Long-term)] Enable language translation for Dyslexic travelers
+\end{itemize}
+
+
+
+\section{Current products}
+In this section, we explain why DeLexia is unique.
+
+\subsection{Similar Software}
+\href{https://chrome.google.com/webstore/detail/dyslexia-reader-chrome/npfbahgomodenajejiopcfbggcpkcani}{Some browser extensions convert text from websites into a Dyslexic-friendly format.
+}
+This software does not convert text from images, which DeLexia does. 
+
+\newpage
+
+
+
+\section{Approach}
+In this section, we describe how we will develop DeLexia.
+
+\subsection{Using the application}
+A user selects a language they understand. They take a picture using their smartphone's camera, and the translated text is shown in a Dyslexic-friendly format. 
+
+
+\subsection{Development}
+This application will be developed for Android and iOS smartphones.
+There are 2 main components to DeLexia: 
+
+\begin{enumerate}
+\item Image to text
+\item Text to Dyslexic-friendly text
+\end{enumerate}
+
+\subsubsection{Image to text}
+Using machine learning, text recognition software returns text from images.
+
+\subsubsection{Text to Dyslexic-friendly text}
+Convert the text into a Dyslexic-friendly format. Text can be translated into a user-selected language here. 
+
+\subsection{Advertisements}
+YouTube and Facebook advertisements will be run for DeLexia at release.
+
+\subsection{Research Study}
+Six months after releasing the application, a Research Study will be conducted with 100 users of DeLexia.
+The goal is to receive feedback on how to improve the Dyslexic-friendly text. Participants will be compensated 5 CAD.
+
+\subsection{Maintenance}
+Make changes to DeLexia's Dyslexic-friendly text from the Research Study. 
+Once updated, the development for DeLexia is complete.
+ 
+\subsection{Revenue Source}
+
+While downloading DeLexia is free, in-app advertisements will generate revenue.
+There will be a 4 CAD fee for users to disable advertisements.
+
+
+\subsection{Budget}
+
+A total of 5000 CAD is required to fund DeLexia.
+
+\begin{center}
+\begin{tabular}{ |c|c| } 
+ \hline
+ 	3000 CAD & Time for programming the DeLexia application \\
+     \hline
+    1500 CAD & Facebook, Youtube Advertisements\\
+     \hline
+    500 CAD & Research Study: 100 participants compensated 5 CAD each\\
+     \hline
+    total: 5000 CAD \\
+ \hline
+\end{tabular}
+\end{center}
+
+
+\subsection{Timetable}
+\begin{center}
+\begin{tabular}{ |c|c| } 
+ \hline
+ 
+	March 2018 & Finish Android Development\\
+     \hline
+	April 2018 & Finish iOS Development\\
+     \hline
+ 	May 2018 & Release Application on Google Play and iTunes \\   
+    & Run YouTube and Facebook Advertisements\\
+     \hline
+    November 2018 & Conduct Research on Dyslexic-friendly text\\
+     \hline
+	January 2019 & Update the application's Dyslexic-friendly text\\
+ \hline
+\end{tabular}
+\end{center}
+
+
+\section{Impact}
+In this section, we discuss the social and benefits and drawbacks of DeLexia  
+
+\subsection{Benefits}
+
+\begin{itemize}
+  \setlength{\itemindent}{7em}
+   \item[(Short-term)] Product Provided
+   \item [(Long-term)] Social Impact
+   \item [(Continuous)] Return on Investment
+\end{itemize}
+
+
+\subsubsection{Product Provided}
+The DeLexia application will be available for download on Google Play and iTunes.
+
+\subsubsection{Social Impact}
+By releasing DeLexia, we intend to improve the quality of life of Dyslexic individuals and raise awareness of the condition to the public.
+
+\subsubsection{Return on Investment}
+Our application will continuously generate revenue from in-app advertisements.
+
+
+\subsection{Drawbacks}
+Total accuracy for text-recognition software is not guaranteed, but can be improved with more machine learning data. 
+
+
+\newpage
+
+\section{References}
+
+\begin{itemize}
+   \item Dyslexia International. (2014, April 29). Dyslexia Overview. Retrieved February 27, 2018, from https://www.dyslexia-international.org/wp-content/uploads/2014/10/DIReport-final-4-29-14.pdf
+   
+   \item About dyslexia. (2017). Retrieved February 27, 2018, from https://www.idaontario.com/about-      dyslexia/
+\end{itemize}
+
+
+\end{document}
